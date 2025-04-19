@@ -1,0 +1,39 @@
+/*css styling for header*/
+header {
+    background-color: white;
+    padding: 55px;
+    margin-left: 55px;
+    border: red;
+    text-align: center;
+}
+
+/* color for heading*/
+h1{
+    color: red;
+}
+
+/*box sec css styling */
+.box {
+    background-color: blue;
+    color: white;
+    min-height: 100px;
+    text-align: left;
+    padding: 10px;
+}
+/* .box2 sec css styling */
+.box2 {
+    background-color: green;
+    color: white;
+    min-height: 100px;
+    text-align: left;
+    padding: 10px;
+}
+
+/* media query for bootsrap */
+@media (max-width: 769px ) {
+    body {
+        background-color: chocolate;
+        color: whitesmoke;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+}
